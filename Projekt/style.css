@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header{
+  margin: auto;
+  height: 100px;
+  width: auto;
+  display: flex;
+  background-color: white;
+}
+
+.inner_header{
+  width: 20%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo_container{
+  height: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo_container h1{
+  color: black;
+  height: 47%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Montserrat';
+  font-size: 50px;
+  font-weight: 200;
+  margin-right: 66px;
+}
+
+.logo_container h1 span{
+  font-weight: 800;
+}
+
+.text_decoration {
+  text-decoration: none;
+  color: black;
+}
+
+.menu_item {
+  height: 40px;
+  width: 40px;
+  margin-left: 85.65%;
+  margin-top: -65px;
+}
+
+.menu_item img {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.outter {
+  border: 1px solid #e5e5e5;
+  margin-top: 30px;
+}
+
+.inner {
+  margin-top: 15px;
+  margin-left: 150px;
+  margin-bottom: 15px;
+  display: inline-block;
+  position: relative;
+  font-family: 'Montserrat';
+  font-size: 15px;
+}
+
+.inner a{
+  padding: 0px 15px;
+}
+
+.account {
+  text-align: center;
+  display: block;
+}
+
+.open-button {
+  cursor: pointer;
+}
+
+/* Popup form */
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  font-family: 'Montserrat';
+}
+
+/* Styles of container */
+.form-container {
+  max-width: 365px;
+  padding: 15px;
+  background-color: white;
+  height: 1000px;
+}
+
+.form-container h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 93.5%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Inputs when focused */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 102%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1.25rem;
+  font-size: 15px;
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.logoutForm {
+  text-align: right;
+  margin-right: 165px;
+}
