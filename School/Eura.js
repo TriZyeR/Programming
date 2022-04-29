@@ -13,7 +13,7 @@ function Euro(array) {
 			pocet = 0;
 		}
 	}
-	return pocet;
+	return nejvic;
 }
 
-console.log(Euro([23,24,25,26,4,2,1]));
+console.log(Euro([23,24,25,26,27,4,2,1,2,3,4,5,6,7]));
